@@ -4,7 +4,7 @@ from wtforms.validators import Email, DataRequired
 from wtforms.fields import StringField, EmailField, TextAreaField, SubmitField
 from flask_bootstrap import Bootstrap5
 import smtplib
-
+print("starting project")
 # initialized our flask application
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "you-secret-key-is-here"
