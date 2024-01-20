@@ -6,6 +6,7 @@ from flask_bootstrap import Bootstrap5
 import smtplib
 
 print("hellododo")
+print("this is me")
 # initialized our flask application
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "you-secret-key-is-here"
